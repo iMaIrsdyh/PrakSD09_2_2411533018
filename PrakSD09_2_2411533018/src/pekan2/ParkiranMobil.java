@@ -9,7 +9,6 @@ class Mobil {
         this.platNomor = platNomor;
     }
 
-    @Override
     public String toString() {
         return platNomor;
     }
