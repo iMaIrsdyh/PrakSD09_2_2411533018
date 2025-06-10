@@ -42,7 +42,7 @@ public class SelectionSortGUI extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					InsertionSortGUI frame = new InsertionSortGUI();
+					SelectionSortGUI frame = new SelectionSortGUI();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -55,7 +55,7 @@ public class SelectionSortGUI extends JFrame {
 	 * Create the frame.
 	 */
 	public SelectionSortGUI() {
-		setTitle("Insertion Sort Langkah per Langkah");
+		setTitle("Selection Sort Langkah per Langkah");
 		setSize(750, 400);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
